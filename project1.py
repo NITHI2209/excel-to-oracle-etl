@@ -5,7 +5,7 @@ df = pd.read_excel("students.xlsx")
 
 conn = oracledb.connect(
     user="sys",
-    password="Nithyasree@22",
+    password="*******",
     dsn="localhost:1521/XEPDB1",
     mode=oracledb.AUTH_MODE_SYSDBA
 )
